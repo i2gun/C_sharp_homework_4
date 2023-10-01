@@ -1,4 +1,4 @@
-﻿// Task 25 ----------------------------------------------
+﻿Console.WriteLine("Task 25 --------------------------");
 int Pow(int d, int p) {
     int res = 1;
     for (int i = 0; i < p; i++) {
@@ -13,7 +13,8 @@ int n2 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(Pow(n1, n2));
 
-// Task 27 ----------------------------------------------
+// --------------------------------------------------
+Console.WriteLine("Task 27 --------------------------");
 int Summd(int d) {
     int residual;
     int result = 0;
@@ -29,11 +30,9 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine(Summd(n));
 
-// Task 29 ----------------------------------------------
-Console.Write("Enter the size of the array: ");
-int s = Convert.ToInt32(Console.ReadLine());
-
-PrintArray(CreateArray(s));
+// --------------------------------------------------
+Console.WriteLine("Task 29 --------------------------");
+PrintArray(CreateArray(8));
 
 int[] CreateArray(int size) {
     int[] array = new int[size];
